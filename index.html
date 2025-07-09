@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanshu Srivastava - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background Elements -->
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Priyanshu Srivastava</div>
+            
+            <!-- Desktop Navigation -->
+            <div class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <!-- Mobile Navigation Button -->
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-image animate-on-load">
+                <img src="IMG_9638.JPG" alt="Profile" class="profile-img">
+                <div class="profile-glow"></div>
+            </div>
+            
+            <h1 class="hero-title animate-on-load">
+                Hi, I'm <span class="gradient-text">Priyanshu Srivastava</span>
+            </h1>
+            
+            <p class="hero-subtitle animate-on-load">
+                I am a full-stack developer with a strong foundation in modern web technologies. I completed my graduation from the Raj Kumar Goel Institute of Technology, Ghaziabad, where I gained a deep understanding of both frontend and backend development. 
+                
+            </p>
+            
+            <div class="hero-buttons animate-on-load">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#projects" class="btn btn-outline">View My Work</a>
+            </div>
+            
+            <div class="social-links animate-on-load">
+                <a href="https://github.com/PRiYANSHU-1412" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/priyanshu-srivastava-a10923245" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:priyanshusrivastava81@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title scroll-animate">About Me</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-item scroll-animate">
+                        <div class="about-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div>
+                            <h3>Developer</h3>
+                            <p>I'm an enthusiastic full-stack developer eager to start my professional journey. I have a strong foundation in building web applications and enjoy learning new technologies to create simple, user-friendly, and impactful digital solutions.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- <div class="about-item scroll-animate">
+                        <div class="about-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div>
+                            <h3>Designer</h3>
+                            <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through blog posts and mentoring.</p>
+                        </div>
+                    </div> -->
+                    
+                    <a href="PriyanshuSrivastava_resume.pdf" class="btn btn-primary scroll-animate" target="_blank">Download Resume</a>
+                </div>
+                
+                <div class="about-image scroll-animate">
+                    <img src="#" alt="About me">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title scroll-animate">Skills & Technologies</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-badge scroll-animate" data-color="blue">React</div>
+                <div class="skill-badge scroll-animate" data-color="gray">HTML</div>
+                <div class="skill-badge scroll-animate" data-color="blue">CSS</div>
+                <div class="skill-badge scroll-animate" data-color="yellow">JavaScript</div>
+                <div class="skill-badge scroll-animate" data-color="green">Node.js</div>
+                <div class="skill-badge scroll-animate" data-color="blue">Python</div>
+                <div class="skill-badge scroll-animate" data-color="cyan">Tailwind CSS</div>
+                <div class="skill-badge scroll-animate" data-color="blue">C++</div>
+                <div class="skill-badge scroll-animate" data-color="green">MongoDB</div>
+                <!-- <div class="skill-badge scroll-animate" data-color="orange">AWS</div> -->
+                <!-- <div class="skill-badge scroll-animate" data-color="blue">Docker</div> -->
+                <div class="skill-badge scroll-animate" data-color="red">Git</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title scroll-animate">Featured Projects</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card scroll-animate">
+                    <div class="project-image">
+                        <img src="shoPperZ.png" alt="E-Commerce Platform">
+                        <div class="project-overlay gradient-purple"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform (ShoPperZ)</h3>
+                        <p>ShoPperZ is a modern, responsive e-commerce landing page designed to showcase and promote a variety of products. The website features an intuitive layout with smooth navigation, a dynamic image slider, and an organized product grid that highlights items across different categories.</p>
+                        <p>features:</p>
+                        <ul>
+                            <li>Responsive navigation menu and search functionality.</li>
+                            <li>Hero image slider for promotional banners.</li>
+                            <li>Product showcase with images, names, prices, and descriptions.</li>
+                            <li>Social media integration in the footer.</li>
+                            <li>Dedicated sections for company information, services, help center, and more.</li>
+                            <li>Clean, minimal design with consistent branding.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/PRiYANSHU-1412/ShoPperZ-e-commerce-website" class="btn btn-outline btn-sm">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://github.com/PRiYANSHU-1412/ShoPperZ-e-commerce-website" class="btn btn-primary btn-sm">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card scroll-animate">
+                    <div class="project-image">
+                        <img src="FiTNESS.png" alt="FiTNESS WebTracking Application">
+                        <div class="project-overlay gradient-blue"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>FiTNESS WebTracking Application</h3>
+                        <p>HTML, CSS (Tailwind CSS), JavaScript, Font Awesome Developed a responsive and interactive fitness tracking platform with a modern UI, enabling users to log workouts, monitor progress, set goals, and join community challenges. Designed an intuitive dashboard that displays weekly activity, streaks, goals progress, and recent workouts using visually engaging components and charts. Integrated social features including a fitness community feed, top members leaderboard, and the ability to connect with friends for accountability and support. Implemented interactive elements such as workout cards, challenge enrolment, and progress tracking with dynamic visual feedback. Enhanced user experience with features like personalized goals, progress charts, and a clean, mobile-friendly layout. </p>
+                        <div class="project-tech">features.
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/PRiYANSHU-1412/FiTNESS" class="btn btn-outline btn-sm">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://github.com/PRiYANSHU-1412/FiTNESS" class="btn btn-primary btn-sm">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="project-card scroll-animate">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200/10b981/ffffff?text=Weather+App" alt="Weather Dashboard">
+                        <div class="project-overlay gradient-green"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather Dashboard</h3>
+                        <p>A responsive weather dashboard that displays current conditions and forecasts with interactive charts and location-based services.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">OpenWeather API</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline btn-sm">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="btn btn-primary btn-sm">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title scroll-animate">Get In Touch</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-text scroll-animate">
+                        <h3><i class="fas fa-bolt"></i> Let's work together</h3>
+                        <p>I'm always interested in hearing about new projects and opportunities. Whether you're a company looking to hire, or you're a fellow developer wanting to collaborate, I'd love to hear from you.</p>
+                    </div>
+                    
+                    <div class="contact-links">
+                        <div class="contact-link scroll-animate">
+                            <i class="fas fa-envelope"></i>
+                            <span>priyanshusrivastava81@gmail.com</span>
+                        </div>
+                        <div class="contact-link scroll-animate">
+                            <i class="fa fa-phone"></i>
+                            <span>+91 7238027345</span>
+                        </div>
+                        <div class="contact-link scroll-animate">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/priyanshu-srivastava-1412</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container scroll-animate">
+                    <form class="contact-form" id="contact-form">
+                        <h3>Send me a message</h3>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Priyanshu Srivastava. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
